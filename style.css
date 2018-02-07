@@ -1,0 +1,117 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #EBEBEB;
+}
+
+.container{
+  width: 500px;
+  margin: 30px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6A65D8;
+}
+
+h1 {
+  color: #0C667E;
+  font-size: 22px;
+  font-weight: 800;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+h2 {
+  color: #0C667E;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+p {
+  text-align: justify;
+}
+
+td {
+  padding: 10px
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow:
+  border: 1px solid lightgrey;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.content_center {
+  align: center;
+}
+
+.project-image {
+  width: 50px;
+  border: 50px;
+}
+
+.profile-image {
+  width: 200px;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #0C667E;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+
+
